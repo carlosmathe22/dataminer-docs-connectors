@@ -12,13 +12,14 @@ The purpose of this connector is to collect the processed metrics available on P
 
 ### Version Info
 
-| **Range**            | **Key Features**                                 | **Based on** | **System Impact**                 |
-|----------------------|--------------------------------------------------|--------------|-----------------------------------|
-| 1.0.0.x              | Initial version (HTTP connection)                | -            | -                                 |
-| 1.0.1.x              | Webhook alarms                                   | 1.0.0.1      | Element IP has to be reconfigured |
-| 1.0.2.x              | Deleted incorrect duplicates in MetricLens table | 1.0.1.5      | Removed rows                      |
-| 1.0.3.x              | New connection to retrieve filter data           | 1.0.2.4      | New element IP                    |
-| 1.0.4.x [SLC Main]   | Added partial option to a couple of tables       | 1.0.3.7      | Impact to visuals, apps, etc.     |
+| **Range**            | **Key Features**                                 | **Based on** | **System Impact**                     |
+|----------------------|--------------------------------------------------|--------------|---------------------------------------|
+| 1.0.0.x              | Initial version (HTTP connection)                | -            | -                                     |
+| 1.0.1.x              | Webhook alarms                                   | 1.0.0.1      | Element IP has to be reconfigured     |
+| 1.0.2.x              | Deleted incorrect duplicates in MetricLens table | 1.0.1.5      | Removed rows                          |
+| 1.0.3.x              | New connection to retrieve filter data           | 1.0.2.4      | New element IP                        |
+| 1.0.4.x              | Added partial option to a couple of tables       | 1.0.3.7      | Impact to visuals, apps, etc.         |
+| 1.1.0.x  [SLC Main]  | Removed deprecated accounts HTTP Request         | 1.0.4.5      | Removed parameters, refactored logic. |
 
 ### Product Info
 
@@ -29,6 +30,7 @@ The purpose of this connector is to collect the processed metrics available on P
 | 1.0.2.x   | -                      |
 | 1.0.3.x   | -                      |
 | 1.0.4.x   | -                      |
+| 1.1.0.x   | -                      |
 
 ### System Info
 
@@ -39,6 +41,7 @@ The purpose of this connector is to collect the processed metrics available on P
 | 1.0.2.x   | No                  | Yes                     | -                     | -                       |
 | 1.0.3.x   | No                  | Yes                     | -                     | -                       |
 | 1.0.4.x   | No                  | Yes                     | -                     | -                       |
+| 1.1.0.x   | No                  | Yes                     | -                     | -                       |
 
 ## Configuration
 
